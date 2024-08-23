@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Auto World - Financing</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="css/SpryTabbedPanels.css" rel="stylesheet" type="text/css" />
+<script src="js/SpryTabbedPanels.js" type="text/javascript"></script>
+<script src="js/financing.js" type="text/javascript"></script>
+</head>
+<body>
+<!-- Main Wrapper Begins Here -->
+<div id="main-wrapper">
+	<!-- Header Begins Here -->
+		<iframe src="header.html" width="100%" height="140" frameborder="0" scrolling="no"></iframe>
+	<!-- Header Ends Here -->
+	<div class="clear"></div>
+	<!-- Inner Wrapper Begins Here -->
+  <div id="inner-wrapper">
+		<!-- Content Box -->
+	  <div id="content-box">
+	  	<div id="content-top">
+			<h1>Financing</h1>
+			<p>You may be eligible for a lease or car financing when you purchase a new car. Just fill out the information below and a dealer or financial instituion will contact you with your options. </p>
+			<form name="finance">
+			<table width="100%" border="0" align="center" cellpadding="5" cellspacing="5" id="related">
+			<tr>
+			  <td><h3>Select Your Car</h3></td>
+			  <td><select name="cars" onChange="getOptionValue()">
+                <option selected="selected">Select Your Brand</option>
+                <optgroup label="BMW">
+                <option value="128i Coupe">128i Coupe</option>
+                <option value="328i Sedan">328i Sedan</option>
+                <option value="X6 xDrive50i">X6 xDrive50i</option>
+                </optgroup>
+                <optgroup label="Honda">
+                <option value="CIVIC">CIVIC</option>
+                <option value="City">City</option>
+                <option value="CR-V">CR-V</option>
+                </optgroup>
+                <optgroup label="Mazda">
+                <option value="CX7">CX7</option>
+                <option value="RX8">RX8</option>
+                <option value="Tribute">Tribute</option>
+                </optgroup>
+                <optgroup label="Nissan">
+                <option value="Maxima">Maxima</option>
+                <option value="Sentra">Sentra</option>
+                <option value="Versa">Versa</option>
+                </optgroup>
+                <optgroup label="Suzuki">
+                <option value="Cultus">Cultus</option>
+                <option value="Liana">Liana</option>
+                <option value="Swift">Swift</option>
+                </optgroup>
+                <optgroup label="Toyota">
+                <option value="Camry">Camry</option>
+                <option value="Carolla">Corolla</option>
+                <option value="Land Cruiser">Land Cruiser</option>
+                </optgroup>
+              </select></td>
+			  <td align="right"><h3>Price ($)</h3></td>
+			  <td><input name="price" type="text" readonly="true" class="txt" /></td>
+			</tr>
+			<tr>
+			  <td><strong>Term (months)</strong></td>
+			  <td><input name="months1" type="text" value="12" readonly="true" class="txt" /></td>
+			  <td><input name="months2" type="text" value="24" readonly="true" class="txt" /></td>
+			  <td><input name="months3" type="text" value="36" readonly="true" class="txt" /></td>
+			</tr>
+			<tr>
+			  <td><strong>Down Payment ($)</strong></td>
+			  <td><input name="payment1" type="text" readonly="true" class="txt" /></td>
+			  <td><input name="payment2" type="text" readonly="true" class="txt" /></td>
+			  <td><input name="payment3" type="text" readonly="true" class="txt" /></td>
+			</tr>                     
+			<tr>
+			  <td><strong>Monthly Payments ($)</strong></td>
+			  <td><input name="installment1" type="text" readonly="true" class="txt" /></td>
+			  <td><input name="installment2" type="text" readonly="true" class="txt" /></td>
+			  <td><input name="installment3" type="text" readonly="true" class="txt" /></td>
+			</tr>
+			<tr>
+			  <td>&nbsp;</td>
+			  <td colspan="3" align="right">
+              <p><strong>You can pay us by the following methods:&nbsp;</strong></p>
+              <img src="images/cards.png" alt="Payment Methods" /></td>
+			  </tr>
+			</table>
+		  </form>
+          
+	  	</div>
+		<div id="content-bottom"></div>
+	  </div>
+		<!-- Content Box -->
+		<!-- Sidebar -->
+		<div id="sidebar">
+		<iframe src="sidebar.html" width="100%" height="100%" frameborder="0" scrolling="no"></iframe>
+		</div>
+		<!-- Sidebar -->
+		<div class="clear"></div>
+	</div>
+	<!-- Inner Wrapper Begins Here -->
+	<!-- Footer Begins Here -->
+		<iframe src="footer.html" width="100%" height="30" frameborder="0" scrolling="no"></iframe>
+	<!-- Footer Begins Here -->
+</div>
+<!-- Main Wrapper Ends Here -->
+</body>
+</html>
